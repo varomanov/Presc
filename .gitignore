@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+*ex*.ipynb
+PlotlyDash.pdf
+
+# Dash/Plotly
+.plotly/
+.plotly-credentials
+assets/generated_*
+
+# Данные (настройте по необходимости)
+# data/*.csv
+# data/*.xlsx
+# !data/sample_data.csv
+
+# Конфиги
+config.py
+secrets.py
+*.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Логи
+*.log
+logs/
