@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 
-df = pd.read_csv('ipsos.csv')
+df = pd.read_csv('ipsos_copy.csv')
 cols = {
     'Class/Market Servier RU': 'Class', 
     'Brand RU': 'Brand', 
@@ -524,4 +524,4 @@ def update_chart(store_data, sBrand):
     return title, fig
 
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=8050)
+    app.run(port=8501, host='0.0.0.0')
